@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
@@ -15,7 +16,8 @@ import { MenuComponent } from './menu/menu.component';
     BrowserAnimationsModule,
     CommonModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    RouterModule
   ],
   exports: [
     MenuComponent
